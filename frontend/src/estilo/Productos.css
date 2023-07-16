@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Pangolin&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lilita+One&display=swap");
+#pap {
+  text-align: center;
+  font-size: 40px;
+
+  color: black;
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+
+  border-radius: 20px;
+  width: 40%;
+  margin-top: 15px;
+}
+
+.carta {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 25px;
+  padding: 0%;
+}
+
+.list-po {
+  align-items: center;
+  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+  padding-bottom: 10px;
+  border-radius: 10px;
+  padding-top: 10px;
+}
+
+.imagenProductos {
+  width: 350px;
+  height: 150px;
+  padding-left: 35px;
+  padding-right: 33px;
+}
+
+.pro-con {
+  font-family: "IM Fell Double Pica SC", serif;
+  text-align: center;
+  width: 90%;
+  height: 100%;
+}
+
+.pro-nom {
+  margin-top: 20px;
+  font-size: 20px;
+  font-family: "Lilita One", cursive;
+}
+
+.pro-des {
+  font-family: "Pangolin", cursive;
+  font-size: 15.5px;
+  padding-top: 20px;
+}
+
+.pro-pre {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 24px;
+}
+
+.cat-pro {
+  padding: 5px;
+}

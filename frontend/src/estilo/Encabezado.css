@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2? family=IM+Fell+Double+Pica&family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+* {
+  margin: auto;
+}
+#body {
+  margin-top: 0%;
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-bottom: 0%;
+  position: relative;
+  padding-bottom: 20px;
+  min-height: 100px;
+}
+
+header {
+  background: #f18200;
+}
+
+.logo01 {
+  position: absolute;
+  width: 100px;
+  top: 30px;
+  left: 110px;
+}
+
+header h1 {
+  /* URBAN TRANSPORT */
+
+  width: 1051px;
+  height: 120px;
+  left: 272px;
+  top: 30px;
+  margin-bottom: 0%;
+  text-align: center;
+
+  font-family: "IM FELL Double Pica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 75px;
+  line-height: 120px;
+
+  color: black;
+  text-decoration: none;
+}
+
+nav {
+  background-color: black;
+  padding: 2px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color: #ddd;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ddd;
+  padding-left: 125px;
+  justify-content: space-between;
+
+  font-family: "IM FELL Great Primer SC";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 25px;
+  line-height: 49px;
+}
+#cont {
+  background-color: #ff9934;
+  color: black;
+  font-family: "Acme", sans-serif;
+  margin-bottom: 40px;
+  font-size: 20px;
+}
+
+#con {
+  height: 20px;
+  width: 20px;
+  padding-left: 0px;
+  margin-left: 20px;
+}
+
+a.my-link {
+  text-decoration: none;
+}
+.btn-neon {
+  transition: 0.2s;
+  overflow: hidden;
+  padding-left: 90px;
+}
+
+.btn-neon:hover {
+  background: #24afd3;
+  box-shadow: 0 0 10px #24afd3, 0 0 40px #24afd3, 0 0 80px #24afd3;
+}
+nav ul li a {
+  border-radius: 15px;
+
+  padding-right: 50px;
+  text-decoration: none;
+  color: #ddd;
+  padding-left: 125px;
+  justify-content: space-between;
+
+  font-family: "IM FELL Great Primer SC";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 25px;
+  line-height: 49px;
+}
+#acc {
+  padding-left: 10px;
+}

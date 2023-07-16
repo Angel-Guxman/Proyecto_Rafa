@@ -1,0 +1,152 @@
+body {
+  background-image: url(../imagen/fondo.png);
+  background-size: cover;
+  height: 100%;
+}
+
+#principal {
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}
+
+.contenido {
+  margin-top: 0%;
+  height: 100%;
+  width: 100%;
+}
+
+.img01 {
+  height: 500px;
+  width: 1000px;
+  border: solid 1px;
+  margin: 0%;
+  padding: 0%;
+  border-radius: 7%;
+}
+
+.text01 {
+  margin-top: 0%;
+  margin-bottom: 0%;
+  font-family: "IM FELL Great Primer SC";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 49px;
+  text-align: center;
+
+  width: 60%;
+  padding-right: 5%;
+  background-image: linear-gradient(
+    135deg,
+    #b95e3c,
+    rgb(205, 165, 85),
+    #f68952,
+    #f75944,
+    #f8ba48,
+    #bc3f63,
+    #e73155,
+    #e5c050,
+    #ff9310
+  );
+  animation: fanimado 10s infinite;
+  background-size: 500%;
+  width: 100%;
+}
+@keyframes fanimado {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.parte2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 180px;
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  padding-top: 0%;
+  padding-bottom: 0%;
+}
+
+.img02 {
+  border-radius: 20px;
+}
+
+.text02 {
+  font-family: "Abhaya Libre ExtraBold";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 42px;
+
+  padding-bottom: 5%;
+  padding-left: 3%;
+
+  color: #000000;
+}
+
+.BotonPrincipal {
+  background-color: #f6e8dc;
+  padding-left: 30px;
+  color: black;
+  border-style: none;
+  text-decoration: none;
+
+  min-height: 40px;
+  width: 370px;
+
+  font-family: "Abhaya Libre ExtraBold";
+  font-style: normal;
+  min-height: 800;
+  font-size: 24px;
+  min-height: 42px;
+}
+
+.whattsap {
+  position: absolute;
+  right: 690px;
+  width: 25px;
+  bottom: 271px;
+}
+#video {
+  height: 220px;
+  width: 500px;
+}
+#atarde {
+  height: 100%;
+  width: 100%;
+  margin-top: 0%;
+  padding-top: 0%;
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+  border-radius: 7%;
+}
+
+a {
+  text-decoration: none;
+}
+@media (max-width: 650px) {
+  header {
+    flex-direction: column;
+  }
+  body {
+    flex-direction: column;
+  }
+  main {
+    flex-direction: column;
+  }
+}
+#bien {
+  font-family: "IM FELL Great Primer SC";
+  color: #000000;
+
+  font-size: 70px;
+}
+#cont {
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  padding-bottom: 10px;
+}

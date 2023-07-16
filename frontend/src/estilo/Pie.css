@@ -1,0 +1,17 @@
+footer {
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+  position: relative;
+  text-align: center;
+  bottom: 0%;
+  margin: 0%;
+  height: 50px;
+  width: 100%;
+  color: white;
+  background-color: black;
+  font-family: "IM FELL Double Pica";
+  font-style: normal;
+}
+footer p {
+  margin-top: 15px;
+}
