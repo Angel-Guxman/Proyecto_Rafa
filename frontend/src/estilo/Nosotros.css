@@ -33,15 +33,24 @@ a {
 
 .Convenios {
   width: 100%;
-  font-size: 20px;
-  text-decoration: underline;
+  font-size: 24px;
+  text-decoration: none;
   border-style: none;
-  background-color: bisque;
   color: black;
+  font-weight: bolder;
 
   margin: 0%;
   padding: 0%;
+
+  transition: 0.2s;
+  overflow: hidden;
+  border-radius: 15px;
 }
+.Convenios:hover {
+  background: #24afd3;
+  box-shadow: 0 0 10px #24afd3, 0 0 40px #24afd3, 0 0 80px #24afd3;
+}
+
 #conv {
   width: 100%;
   height: 8%;
@@ -54,13 +63,28 @@ a {
   font-size: 30px;
 }
 #central {
+  width: 95%;
   border-radius: 15px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
 
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 16px;
 }
+
+.servicio {
+  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+  border-radius: 15px;
+  text-align: left;
+}
+
+.parrafodos {
+  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+  border-radius: 15px;
+  padding: 5px;
+  text-align: right;
+}
+
 #servicio {
   padding: 0%;
   margin: 0%;
@@ -72,4 +96,5 @@ a {
   background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
 
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 16px;
 }

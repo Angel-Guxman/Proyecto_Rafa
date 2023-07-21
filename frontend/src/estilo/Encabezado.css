@@ -14,14 +14,33 @@
 }
 
 header {
-  background: #f18200;
+  background-color: #ed8013;
+}
+
+.encabezado {
+  display: flex;
+}
+
+.botonesEncabezado {
+  position: absolute;
+  left: 83%;
+  top: 13.5%;
+}
+
+.acceder {
+  color: white;
+}
+
+.admin {
+  color: white;
+  padding-left: 20px;
 }
 
 .logo01 {
   position: absolute;
   width: 100px;
   top: 30px;
-  left: 110px;
+  left: 27px;
 }
 
 header h1 {
@@ -94,7 +113,7 @@ a.my-link {
 .btn-neon {
   transition: 0.2s;
   overflow: hidden;
-  padding-left: 90px;
+  padding-left: 77px;
 }
 
 .btn-neon:hover {
@@ -104,7 +123,7 @@ a.my-link {
 nav ul li a {
   border-radius: 15px;
 
-  padding-right: 50px;
+  padding-right: 73px;
   text-decoration: none;
   color: #ddd;
   padding-left: 125px;
@@ -116,6 +135,7 @@ nav ul li a {
   font-size: 25px;
   line-height: 49px;
 }
-#acc {
-  padding-left: 10px;
+.carrito-contador {
+  position: absolute;
+  background-color: #ddd;
 }

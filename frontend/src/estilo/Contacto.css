@@ -46,6 +46,7 @@ a {
   line-height: 36px;
   text-align: justify;
   background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+  border-radius: 15px;
   padding: 4%;
   color: #000000;
   padding-top: 1%;
@@ -53,7 +54,7 @@ a {
 }
 
 .Redes {
-  border-radius: 20px;
+  border-radius: 100px;
   width: 80%;
   height: 100%;
   padding-right: 50px;
@@ -69,6 +70,17 @@ a {
   height: 400px;
 }
 #conth {
-  background-color: white;
   width: 400px;
+}
+
+#pixa {
+  border-radius: 15px;
+  color: black;
+  transition: 0.2s;
+  overflow: hidden;
+}
+
+#pixa:hover {
+  background: #24afd3;
+  box-shadow: 0 0 10px #24afd3, 0 0 40px #24afd3, 0 0 80px #24afd3;
 }

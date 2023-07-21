@@ -20,7 +20,7 @@ function Nosotros() {
             Quintana Roo desde 5 hasta 500 pasajeros.
           </div>
 
-          <p id="parrafodos">
+          <p id="parrafodos" className="parrafodos">
             Ofrecemos de Cancún a playa del Carmen, transporte del aeropuerto
             hasta tu hotel, zona hotelera y traslado de Cancún a Tulum y Holbox.
           </p>

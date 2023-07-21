@@ -5,6 +5,8 @@ import "../estilo/Principal.css";
 import playita from "../imagen/inicioplaya.jpg";
 import barquito from "../imagen/iniciobarco.png";
 import { Link } from "react-router-dom";
+import whattsap from "../imagen/whattsap.png";
+
 function Principal() {
   return (
     <>
@@ -32,7 +34,7 @@ function Principal() {
             <Link to="/contacto" className="BotonPrincipal">
               Pide tu transporte ahora
             </Link>
-            <img src="Imagen/whattsap.png" className="whattsap" alt="" />
+            <img src={whattsap} className="whattsap" alt="" />
           </section>
           <div id="cont">
             <h1>!Tranporte en cancun!</h1>

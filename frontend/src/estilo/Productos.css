@@ -12,19 +12,21 @@
   margin-top: 15px;
 }
 
-.carta {
+.carta-productos {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   margin-top: 25px;
-  padding: 0%;
+  padding-left: 15px;
+  padding-right: 15px;
+  gap: 20px;
 }
 
 .list-po {
   align-items: center;
   background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
   padding-bottom: 10px;
-  border-radius: 10px;
   padding-top: 10px;
+  border-radius: 15px;
 }
 
 .imagenProductos {
@@ -32,6 +34,7 @@
   height: 150px;
   padding-left: 35px;
   padding-right: 33px;
+  border-radius: 10px;
 }
 
 .pro-con {
