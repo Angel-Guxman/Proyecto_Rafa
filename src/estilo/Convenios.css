@@ -1,0 +1,30 @@
+#asociados {
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  height: 100%;
+  width: 100%;
+  font-size: 20px;
+  text-align: center;
+}
+#aso-des {
+  padding: 5px;
+  width: 80%;
+  border-radius: 15px;
+  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+
+  font-size: 16px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#aso-titulo {
+  font-family: "Times New Roman", Times, serif;
+}
+#aso-compo {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 15px;
+  margin: 1%;
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+#aso-imagen {
+  width: 90%;
+}

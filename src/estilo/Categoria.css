@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2? family=IM+Fell+Double+Pica&family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
+.catego {
+  font-family: "IM FELL Great Primer SC";
+  text-align: center;
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 35px;
+}
+
+.col-md-4 {
+  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-radius: 40px;
+  padding: 10px;
+}
+
+.playa {
+  width: 100%;
+  border-radius: 40px;
+  margin-bottom: 5px;
+}
+
+.cartas {
+  width: 100%;
+  height: 100%;
+}
+#cat-todo {
+  text-align: center;
+  margin-bottom: 80px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#cat-h3 {
+  font-family: "Lato", sans-serif;
+  color: black;
+}

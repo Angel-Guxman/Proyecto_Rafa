@@ -1,0 +1,139 @@
+a {
+  text-decoration: none;
+}
+
+#nosotros {
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 16px;
+  margin-left: 70px;
+  margin-right: 70px;
+  padding-bottom: 1px;
+  margin-bottom: 0%;
+  height: 100%;
+}
+
+#imagensomos {
+  width: 100%;
+  height: 400px;
+  padding: 1%;
+  text-align: center;
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#ado {
+  height: 100%;
+  width: 80%;
+  border-radius: 30px;
+}
+
+.as-conv {
+  display: flex;
+  justify-content: center;
+}
+.Convenios {
+  width: 120px;
+  font-size: 24px;
+  text-decoration: none;
+  border-style: none;
+  color: black;
+  font-weight: bolder;
+  margin: 0%;
+  padding: 0%;
+  transition: 0.2s;
+  overflow: hidden;
+  border-radius: 15px;
+}
+.Convenios:hover {
+  background: #e97a3a;
+  box-shadow: 0 0 10px #e97a3a, 0 0 40px #e97a3a, 0 0 80px #e97a3a;
+}
+
+#conv {
+  width: 100%;
+  height: 8%;
+  margin: 0%;
+  padding: 0%;
+  text-align: center;
+}
+#quienes {
+  text-align: center;
+  margin-bottom: 18px;
+}
+#quienes h1 {
+  font-size: 60px;
+}
+#central {
+  width: 100%;
+  height: 124px;
+  border-radius: 15px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 34px;
+}
+
+.servicio {
+  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+  border-radius: 15px;
+  text-align: center;
+  padding: 5px;
+}
+
+.parrafodos {
+  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+  border-radius: 15px;
+  text-align: center;
+  height: 100%;
+  padding: 5px;
+}
+
+#servicio {
+  margin: 0%;
+  margin-right: 15px;
+}
+#conductor {
+  text-align: center;
+  width: 100%;
+  border-radius: 15px;
+  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 16px;
+  margin-top: 25px;
+}
+#asociados {
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  height: 100%;
+  width: 100%;
+  font-size: 20px;
+  text-align: center;
+}
+#aso-desc {
+  padding: 5px;
+  width: 100%;
+  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+
+  border-radius: 15px;
+  text-align: center;
+  font-size: 16px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#aso-titulo {
+  font-family: "Times New Roman", Times, serif;
+}
+#aso-compo {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 15px;
+  margin: 1%;
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+#aso-imagen {
+  width: 90%;
+}

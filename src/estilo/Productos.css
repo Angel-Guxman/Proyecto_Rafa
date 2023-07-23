@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Pangolin&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lilita+One&display=swap");
+.pap-pro {
+  display: flex;
+  justify-content: center;
+}
+#pap {
+  text-align: center;
+  font-size: 40px;
+  color: black;
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  font-family: "Lilita One", cursive;
+  border-radius: 20px;
+  width: 40%;
+  margin-top: 15px;
+}
+.buscar {
+  text-align: center;
+}
+.buscar-boton {
+  margin-left: 10px;
+  background-color: #e97a3a;
+  border-radius: 10%;
+}
+.buscar-boton:hover {
+  background: #e97a3a;
+  box-shadow: 0 0 10px #e97a3a, 0 0 40px #e97a3a, 0 0 80px #e97a3a;
+}
+.pro-pre {
+  margin-bottom: 0%;
+}
+
+.carta-productos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
+  gap: 20px;
+  height: 100%;
+}
+
+.list-po {
+  align-items: center;
+  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-radius: 15px;
+  height: 100%;
+}
+
+.imagenProductos {
+  width: 350px;
+  height: 180px;
+  border-radius: 10px;
+}
+
+.pro-con {
+  font-family: "IM Fell Double Pica SC", serif;
+  text-align: center;
+  width: 100%;
+  height: 80%;
+}
+
+.pro-nom {
+  margin-top: 20px;
+  font-size: 20px;
+  font-family: "Lilita One", cursive;
+}
+
+.pro-des {
+  font-family: "Pangolin", cursive;
+  font-size: 15.5px;
+  padding-top: 20px;
+}
+
+.pro-pre {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 24px;
+}
+
+.cat-pro {
+  padding: 5px;
+}

@@ -1,0 +1,87 @@
+#carro {
+  height: 20px;
+  width: 20px;
+  padding-left: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.contacto-uno {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 70px;
+  margin-right: 70px;
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  padding-bottom: 15px;
+}
+.imared {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 400px;
+  width: 100%;
+  gap: 20px;
+}
+
+.redes {
+  height: 400px;
+  width: 100%;
+  border-radius: 30px;
+}
+
+.Contactanos h1 {
+  width: 45%;
+  padding-top: 0%;
+  margin-top: 0%;
+  font-family: "IM FELL Great Primer SC";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 100px;
+  margin-bottom: 0%;
+  top: 15px;
+  left: 38px;
+  margin-bottom: 0%;
+  color: #000000;
+}
+
+.Contactanos p {
+  width: 100%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: justify;
+  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+  border-radius: 15px;
+  padding: 4%;
+  color: #000000;
+  padding-top: 1%;
+  margin-top: 2%;
+}
+
+.conth-tit {
+  display: flex;
+  justify-content: center;
+}
+#conth {
+  width: 400px;
+}
+
+#pixa {
+  border-radius: 15px;
+  color: black;
+  transition: 0.2s;
+  overflow: hidden;
+}
+
+#pixa:hover {
+  background: #24afd3;
+  box-shadow: 0 0 10px #24afd3, 0 0 40px #24afd3, 0 0 80px #24afd3;
+}
+.pixa-uno {
+  display: flex;
+  justify-content: center;
+}

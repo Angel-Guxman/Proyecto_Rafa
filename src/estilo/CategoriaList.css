@@ -1,0 +1,12 @@
+#list-cat-tit {
+  color: black;
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}
+#list-cat-crear {
+  text-align: center;
+  background-color: aliceblue;
+  font-size: 30px;
+}
+#list-cat-tabla {
+  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+}
