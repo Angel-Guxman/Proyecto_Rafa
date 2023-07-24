@@ -40,10 +40,10 @@ function CategoriaList() {
         <h1>Lista de Categorías</h1>
       </div>
       <div id="list-cat-crear">
-        <Link to="/admin/categorias/nueva">Crear Nueva Categoría</Link>
+        <Link  className="subtituloCategoria" to="/admin/categorias/nueva">Crear Nueva Categoría</Link>
       </div>
       <table id="list-cat-tabla">
-        <thead>
+        <thead className="theadTitulo">
           <tr>
             <th>ID</th>
             <th>Nombre</th>
@@ -57,11 +57,12 @@ function CategoriaList() {
               <td>{categoria.id_categoria}</td>
               <td>{categoria.nombre_categoria}</td>
               <td>{categoria.descripcion_categoria}</td>
-              <td>
-                <Link to={`/admin/categorias/editar/${categoria.id_categoria}`}>
+              <td className="botonAccion">
+                <Link className="botonEditar" to={`/admin/categorias/editar/${categoria.id_categoria}`}>
                   Editar
                 </Link>
                 <button
+                className="botonEliminar"
                   onClick={() => eliminarCategoria(categoria.id_categoria)}
                 >
                   Eliminar

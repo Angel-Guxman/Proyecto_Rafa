@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
+import "../estilo/UsuarioList.css";
+import Encabezado from "./Encabezado";
+import Pie from "./Pie";
 
 const UsuariosList = () => {
   const [usuarios, setUsuarios] = useState([]);
@@ -27,24 +30,29 @@ const UsuariosList = () => {
   };
 
   return (
-    <div>
-      <h2>Lista de Usuarios</h2>
-      <ul>
-        {usuarios.map((usuario) => (
-          <li key={usuario.id_usuario}>
-            {usuario.nombre_usuario} - {usuario.correo_electronico}
-            <Link to={`/admin/usuarios/editar/${usuario.id_usuario}`}>
-              Editar
-            </Link>
-            <button onClick={() => handleEliminarUsuario(usuario.id_usuario)}>
-              Eliminar
-            </button>
-          </li>
-        ))}
-        <Link to="/admin/usuarios/agregar"> Agregar Nuevo Usuario</Link>
-        <Link to="/dashboard"> Salir</Link>
-      </ul>
-    </div>
+    <>
+      <Encabezado />
+      <div className="ListaUusarios">
+        <h2>Lista de Usuarios</h2>
+        <ul className="ListaUsuarioUL">
+          <Link className="AgregarUsuario" to="/admin/usuarios/agregar"> Agregar Nuevo Usuario</Link>
+          <Link className="SalirDashboard" to="/dashboard"> Salir</Link>
+          {usuarios.map((usuario) => (
+            <li className="li-usuario" key={usuario.id_usuario}>
+              {usuario.nombre_usuario} - {usuario.correo_electronico}
+              <Link className="Editar-Lista-Usuario" to={`/admin/usuarios/editar/${usuario.id_usuario}`}>
+                Editar
+              </Link>
+              <button onClick={() => handleEliminarUsuario(usuario.id_usuario)}>
+                Eliminar
+              </button>
+            </li>
+          ))}
+
+        </ul>
+      </div>
+      <Pie />
+    </>
   );
 };
 

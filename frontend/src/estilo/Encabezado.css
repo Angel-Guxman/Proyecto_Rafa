@@ -51,6 +51,7 @@ nav ul {
 }
 
 nav ul li {
+  padding-left: 50px;
   display: inline;
   margin-right: 10px;
 }
@@ -113,4 +114,5 @@ nav ul li a {
 .carrito-contador {
   position: absolute;
   background-color: #ddd;
+  border-radius: 25px;
 }

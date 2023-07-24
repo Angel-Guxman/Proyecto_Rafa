@@ -85,7 +85,7 @@ function Encabezado() {
             </Link>
           </li>
           <li>
-            <Link to="/contacto" className="btn-neon">
+            <Link to="/contactos" className="btn-neon">
               Contacto
             </Link>
           </li>

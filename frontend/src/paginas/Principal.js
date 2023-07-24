@@ -100,7 +100,7 @@ function Principal() {
           </div>
 
           <div id="transporte-ahora">
-            <Link to="/contacto" className="BotonPrincipal">
+            <Link to="/contactos" className="BotonPrincipal">
               Pide tu transporte ahora
             </Link>
             <img src={whattsap} className="whattsap" alt="" />

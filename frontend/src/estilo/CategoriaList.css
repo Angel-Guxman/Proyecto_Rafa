@@ -1,12 +1,50 @@
 #list-cat-tit {
-  color: black;
+  border-radius: 15px;
+  width: 40%;
+  align-items: center;
+  text-align: center;
+  margin-left: 30%;
+  margin-top: 15px;
   background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
 }
 #list-cat-crear {
+  margin-left: 35%;
+  width: 30%;
+  border-radius: 15px;
+  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+
   text-align: center;
-  background-color: aliceblue;
-  font-size: 30px;
+  font-size: 26px;
 }
 #list-cat-tabla {
+  font-size: 24px;
+  
+  border-radius: 5px;
+  margin-top: 15px;
+  margin-left: 0%;
   background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+}
+.theadTitulo{
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+
+}
+
+td{
+  padding: 40px;
+}
+
+.botonEliminar{
+  border-radius: 15px;
+}
+
+.botonAccion{
+  display: flex;
+  border-radius: 15px;
+}
+.botonEditar{
+  color: black;
+}
+
+.subtituloCategoria{
+  color: black;
 }

@@ -21,7 +21,7 @@ function Categoria() {
     <>
       <Encabezado />
       <div id="cat-todo">
-        <h3 id="cat-h3">Mira Nuestras Categorías</h3>
+        <h1 id="cat-h1">Mira Nuestras Categorías</h1>
         <div className="catego">
           {categorias.map((categoria, index) => (
             <div className="col-md-4" key={categoria.id_categoria}>

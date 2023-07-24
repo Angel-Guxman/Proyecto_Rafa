@@ -34,7 +34,15 @@
   margin-left: 20px;
   margin-right: 20px;
 }
-#cat-h3 {
-  font-family: "Lato", sans-serif;
+#cat-h1 {
+  font-size: 45px;
   color: black;
+  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+  border-radius: 200px;
+  width: 40%;
+  margin-left: 30%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
 }
+

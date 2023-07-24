@@ -27,14 +27,14 @@ function ProductoPorCategoria() {
   return (
     <>
       <Encabezado />
-      <h2 id="pap">Productos</h2>
+      <h2 id="papIdProducto">Productos</h2>
       <div className="carta-productos">
         {productos.map((producto) => (
           <div
             className="col-md-4 mb-3 d-flex justify-content-center"
             key={producto.id_producto}
           >
-            <div className="list-po">
+            <div className="listaProductoId">
               <img
                 src={require(`../imagen/${producto.imagen}`)}
                 className="imagenProductos"

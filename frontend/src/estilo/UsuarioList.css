@@ -1,0 +1,47 @@
+.ListaUusarios{
+    margin-top: 15px;
+    margin-left: 15%;
+    width: 70%;
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}
+
+.ListaUusarios h2{
+    text-align: center;
+    background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+
+}
+
+ul Link{
+    color: #f6d365;
+}
+
+.li-usuario{
+    margin-top: 5px;
+    list-style: none;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    font-size: 20px ;
+}
+.Editar-Lista-Usuario{
+    padding-left: 30px;
+    font-size: 20px;
+    color: black;
+}
+
+.ListaUsuarioUL{
+    text-align: center;
+    align-items: center;
+    color: black;
+}
+
+.AgregarUsuario{
+    font-size: 24px;
+    
+    color: black;
+}
+
+.SalirDashboard{
+    font-size: 24px;
+    color: black;
+}

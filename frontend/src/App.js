@@ -2,7 +2,6 @@
 import React from "react";
 import { CarritoProvider } from "./contexts/CarritoContext"; // Importar el CarritoProvider
 import Principal from "./paginas/Principal";
-import Contacto from "./paginas/contacto";
 import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Nosotros from "./paginas/Nosotros";
@@ -24,6 +23,7 @@ import UsuariosList from "./componentes/UsuariosList";
 import EditarUsuario from "./componentes/EditarUsuario";
 import AgregarUsuario from "./componentes/AgregarUsuario";
 import ProcesoCompraCrud from "./componentes/ProcesoCompraCrud";
+import Contactos from "./paginas/Contactos";
 // Resto de tus importaciones...
 
 function App() {
@@ -75,7 +75,7 @@ function App() {
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Principal />} />
-            <Route path="/contacto" element={<Contacto />} />
+            <Route path="/contactos" element={<Contactos />} />
             <Route path="/nosotros" element={<Nosotros />} />
             <Route path="/login" element={<Login />} />
             <Route path="/registro" element={<Registro />} />
