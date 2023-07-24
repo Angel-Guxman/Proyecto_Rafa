@@ -51,6 +51,7 @@ function Registro() {
           <div className="input-contenedor">
             <i className="fas fa-user icon" />
             <input
+              className="email"
               type="email"
               placeholder="Email"
               name="correo_eletronico"

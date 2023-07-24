@@ -1,7 +1,5 @@
 footer {
-  margin-bottom: 0%;
-  padding-bottom: 0%;
-  position: relative;
+  margin-top: 10px;
   text-align: center;
   bottom: 0%;
   margin: 0%;
@@ -14,4 +12,10 @@ footer {
 }
 footer p {
   margin-top: 15px;
+}
+.bot-ca {
+  background-color: #3685e6;
+  margin-bottom: 12px;
+  color: white;
+  border-radius: 7px;
 }

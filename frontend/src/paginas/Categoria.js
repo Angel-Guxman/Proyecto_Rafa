@@ -20,32 +20,33 @@ function Categoria() {
   return (
     <>
       <Encabezado />
-      <h3>Mira Nuestras Categorías</h3>
-      <div className="row">
-        {categorias.map((categoria, index) => (
-          <div
-            className="col-md-4 mb-3 d-flex justify-content-center"
-            key={categoria.id_categoria}
-          >
-            <div className="card">
-              <img
-                src={require(`../imagen/${categoria.imagen}`)}
-                className="card-img-top"
-                alt="..."
-              />
-              <div className="card-body">
-                <h5 className="card-title">{categoria.nombre_categoria}</h5>
-                <p className="card-text">{categoria.descripcion_categoria}</p>
-                <Link
-                  to={`/obtenerproductos/${categoria.id_categoria}`}
-                  className="btn btn-primary"
-                >
-                  Mostrar
-                </Link>
+      <div id="cat-todo">
+        <h3 id="cat-h3">Mira Nuestras Categorías</h3>
+        <div className="catego">
+          {categorias.map((categoria, index) => (
+            <div className="col-md-4" key={categoria.id_categoria}>
+              <div className="cartas">
+                <img
+                  src={require(`../imagen/${categoria.imagen}`)}
+                  className="playa"
+                  alt="..."
+                />
+                <div className="cuerpo-cat">
+                  <h5 className="nombre-cat">{categoria.nombre_categoria}</h5>
+                  <p className="descrpcion-cat">
+                    {categoria.descripcion_categoria}
+                  </p>
+                  <Link
+                    to={`/obtenerproductos/${categoria.id_categoria}`}
+                    className="btn btn-primary"
+                  >
+                    Mostrar
+                  </Link>
+                </div>
               </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
       <Pie />
     </>

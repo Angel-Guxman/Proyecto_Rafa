@@ -13,7 +13,7 @@ function Comprarealizada() {
           Gracias por tu compra. Hemos recibido tu pedido y lo estamos
           procesando. Te enviaremos más información sobre el envío en breve.
         </p>
-        <img src="realizado.png" alt="Checkmark" />
+        <img src="realizado.png" alt="Checkmark" id="reali-img" />
       </div>
       <Pie />
     </>

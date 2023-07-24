@@ -1,13 +1,17 @@
+// Carrito.js
 import React from "react";
 import Encabezado from "../componentes/Encabezado";
 import Pie from "../componentes/Pie";
 import "../estilo/Carrito.css";
-
+import { useCarrito } from "../contexts/CarritoContext"; // Importar el contexto del carrito
+import { PayPalScriptProvider, PayPalButtons } from "@paypal/react-paypal-js";
 function Carrito() {
+  const { carrito, eliminarProducto } = useCarrito();
+
   return (
     <>
       <Encabezado />
-      <section>
+      <section id="cart-ba">
         <h2>Carrito de compras</h2>
         <div className="cart">
           <table>
@@ -17,48 +21,46 @@ function Carrito() {
                 <th>Precio</th>
                 <th>Cantidad</th>
                 <th>Total</th>
+                <th>Eliminar</th>{" "}
+                {/* Agregar una columna para eliminar productos */}
               </tr>
             </thead>
             <tbody>
-              <tr>
-                <td>Transporte de pequeña capacidad</td>
-                <td>$500.00</td>
-                <td>
-                  <input type="number" defaultValue={2} min={0} />
-                </td>
-                <td>$20.00</td>
-              </tr>
-              <tr>
-                <td>Transporte de mediana capacidad</td>
-                <td>$750.00</td>
-                <td>
-                  <input type="number" defaultValue={1} min={0} />
-                </td>
-                <td>$500.00</td>
-              </tr>
-              <tr>
-                <td>Transporte de gran capacidad</td>
-                <td>$750</td>
-                <td>
-                  <input type="number" defaultValue={3} min={0} />
-                </td>
-                <td>$1000.00</td>
-              </tr>
+              {carrito.map((producto) => (
+                <tr key={producto.id_producto}>
+                  <td>{producto.nombre_producto}</td>
+                  <td>${producto.precio}</td>
+                  <td>{producto.cantidad}</td>
+                  <td>${producto.precio * producto.cantidad}</td>
+                  <td>
+                    <button
+                      onClick={() => eliminarProducto(producto.id_producto)}
+                    >
+                      Eliminar
+                    </button>
+                  </td>
+                </tr>
+              ))}
             </tbody>
             <tfoot>
               <tr>
-                <td colSpan={3}>Total:</td>
-                <td>$2250.00</td>
+                <td colSpan={4}>Total:</td>
+                <td>
+                  $
+                  {carrito.reduce(
+                    (total, producto) =>
+                      total + producto.precio * producto.cantidad,
+                    0
+                  )}
+                </td>
               </tr>
             </tfoot>
           </table>
-          <a href="/" className="btn">
-            Pagar
-          </a>
         </div>
       </section>
       <Pie />
     </>
   );
 }
+
 export default Carrito;

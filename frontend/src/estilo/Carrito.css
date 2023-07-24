@@ -53,3 +53,6 @@ section {
 .cart a.btn:hover {
   background-color: #df8909;
 }
+#cart-ba {
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 60%);
+}

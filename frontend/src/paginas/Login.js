@@ -1,18 +1,20 @@
 import { useState } from "react";
 import Pie from "../componentes/Pie";
 import axios from "axios";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import Encabezado from "../componentes/Encabezado";
 import React from "react";
 import "../estilo/Login.css";
-function Acceso() {
+
+function Login() {
   const [campos, setCampos] = useState({
     correo_electronico: "",
     contrasenia: "",
   });
   const [error, setError] = useState("");
-  //redirecionMIENTO
+  const navigate = useNavigate();
 
+  // Login.js
   const acceder = (e) => {
     e.preventDefault();
     axios
@@ -20,7 +22,9 @@ function Acceso() {
       .then((respuesta) => {
         if (respuesta.data.Estatus === "CORRECTO") {
           localStorage.setItem("usuario", respuesta.data);
-          window.location.href = "/";
+          const nivelUsuario = respuesta.data.nivelUsuario; // Obtener el nivel de usuario desde la respuesta
+          localStorage.setItem("nivelUsuario", nivelUsuario); // Almacenar el nivel de usuario en localStorage
+          nivelUsuario === 2 ? navigate("/dashboard") : navigate("/");
         } else {
           setError(respuesta.data.Error);
           console.log(error);
@@ -28,15 +32,18 @@ function Acceso() {
       })
       .catch((error) => console.log(error));
   };
+
   return (
     <>
       <Encabezado />
       <form className="formulario" onSubmit={acceder}>
-        <h1>LOGIN</h1>
-        <div className="contenedor">
+        <h1 className="login-ache">Login</h1>
+        {error && <p className="error-message">{error}</p>}
+        <div className="contenedor-login">
           <div className="input-contenedor">
             <i className="fas fa-user icon" />
             <input
+              className="email"
               type="email"
               placeholder="Email"
               name="correo_eletronico"
@@ -57,22 +64,24 @@ function Acceso() {
             />
           </div>
           <button type="submit" className="button">
-            ingresar
+            Ingresar
           </button>
-          <p>
+          <p className="error-message">
             Al registrarte, aceptas nuestras Condiciones de uso y Política de
             privacidad.
           </p>
-          <p>
+          <p className="error-message">
             ¿No tienes una cuenta?{" "}
             <Link to="/registro" className="link">
-              Registrate{" "}
+              Regístrate
             </Link>
           </p>
         </div>
       </form>
+
       <Pie />
     </>
   );
 }
-export default Acceso;
+
+export default Login;

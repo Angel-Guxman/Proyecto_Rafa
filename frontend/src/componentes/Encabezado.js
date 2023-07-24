@@ -1,16 +1,17 @@
 import React from "react";
 import "../estilo/Encabezado.css";
-import logo01 from "../imagen/logo01.png";
-import sudo from "../imagen/sudo.png";
+import logoUrban from "../imagen/iconoUrban.png";
+import UrbanTransport from "../imagen/urbanTransport.png";
+
 import compras from "../imagen/compras.png";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
-
+import { useCarrito } from "../contexts/CarritoContext";
 function Encabezado() {
-  //retomamos el token
-  const login = localStorage.getItem("usuario");
+  const nivelUsuario = localStorage.getItem("nivelUsuario");
+
   const navegacion = useNavigate();
-  //crear un metodo salir
+  const { cantidadProductos } = useCarrito();
   const salir = () => {
     localStorage.clear();
     navegacion("/");
@@ -18,11 +19,48 @@ function Encabezado() {
 
   return (
     <>
-      <header id="UrbanCenter" className="UrbanCenter">
-        <a href="PaginaPrincipal.html" className="my-link">
-          <h1>URBAN TRANSPORT</h1>
-          <img src={logo01} className="logo01" alt="" />
-        </a>
+      <header id="encabezado" className="encabezado">
+        <div className="logo-nombre">
+          <img src={logoUrban} alt="..." className="logo-urban" />
+
+          <img src={UrbanTransport} alt="..." className="urban-transport" />
+        </div>
+        <div className="botonesEncabezado" id="botonesEncabezado">
+          {nivelUsuario === "1" && (
+            <li>
+              <Link to="/" className="acceder" onClick={salir}>
+                Salir
+              </Link>
+            </li>
+          )}
+
+          {nivelUsuario === "2" && (
+            <li>
+              <Link to="/dashboard" className="acceder">
+                Dashboard
+              </Link>
+              <Link to="/" className="acceder" onClick={salir}>
+                Salir
+              </Link>
+            </li>
+          )}
+
+          {/* Si no es nivel 1 ni nivel 2, se mostrarán los siguientes botones */}
+          {nivelUsuario !== "1" && nivelUsuario !== "2" && (
+            <li>
+              <Link to="/login" className="acceder">
+                Iniciar Sesión
+              </Link>
+            </li>
+          )}
+
+          <Link to="/carrito">
+            <img src={compras} id="con" alt="" />
+            {cantidadProductos > 0 && ( // Mostrar el contador solo si hay productos en el carrito
+              <span className="carrito-contador">{cantidadProductos}</span>
+            )}
+          </Link>
+        </div>
       </header>
       <nav id="menu" className="menu">
         <ul>
@@ -37,39 +75,20 @@ function Encabezado() {
             </Link>
           </li>
           <li>
-            <Link to="/contacto" className="btn-neon">
-              Contacto
+            <Link to="/categoria" className="btn-neon">
+              Categoría
             </Link>
-          </li>
-          <li>
-            <a href="/categoria" className="btn-neon">
-              Categoria
-            </a>
           </li>
           <li>
             <Link to="/producto" className="btn-neon">
               Producto
             </Link>
           </li>
-          <Link to="/login">
-            <img src={sudo} id="con" alt="" />
-          </Link>
-          <Link to="/carrito">
-            <img src={compras} id="con" alt="" />
-          </Link>
-          {login ? (
-            <>
-              <a className="btn-neon" onClick={salir} href="...">
-                Salir
-              </a>
-            </>
-          ) : (
-            <>
-              <Link to="/login" id="acc">
-                Acceder
-              </Link>
-            </>
-          )}
+          <li>
+            <Link to="/contacto" className="btn-neon">
+              Contacto
+            </Link>
+          </li>
         </ul>
       </nav>
     </>

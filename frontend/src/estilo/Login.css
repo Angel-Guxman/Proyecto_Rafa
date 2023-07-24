@@ -1,4 +1,4 @@
-.contenedor {
+.contenedor-login {
   width: 100%;
   padding: 15px;
 }
@@ -9,7 +9,7 @@
   height: 65vh;
   padding-top: 30px;
 }
-h1 {
+.login-ache {
   text-align: center;
   color: #1a2537;
   font-size: 40px;
@@ -43,7 +43,7 @@ input[type="password"] {
 .button:hover {
   background: cadetblue;
 }
-p {
+.error-message {
   text-align: center;
 }
 .link {
@@ -61,4 +61,11 @@ p {
     margin-top: 150px;
     border-radius: 2%;
   }
+}
+
+.email {
+  font-size: 20px;
+  padding-top: 22px;
+  width: 100%;
+  border: 1px;
 }
