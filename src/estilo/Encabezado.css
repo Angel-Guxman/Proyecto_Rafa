@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2? family=IM+Fell+Double+Pica&family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+
+.encabezado {
+  height: 124px;
+}
+.logo-nombre {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 100px;
+}
+.logo-urban {
+  height: 100px;
+  width: 130px;
+}
+.urban-transport {
+  height: 100px;
+  width: 880px;
+}
+
+.botonesEncabezado {
+  display: flex;
+  background-color: black;
+  justify-content: end;
+  padding-right: 50px;
+}
+/* Botones del login y carrito*/
+.acceder {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding-left: 14px;
+}
+.acceder:hover {
+  color: #f05521;
+
+  transition: color 0.3s ease;
+}
+nav {
+  background-color: #ed8013;
+  padding: 2px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color: #ddd;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ddd;
+  padding-left: 125px;
+  justify-content: space-between;
+
+  font-family: "IM FELL Great Primer SC";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 25px;
+  line-height: 49px;
+}
+#cont {
+  background-color: #ff9934;
+  color: black;
+  font-family: "Acme", sans-serif;
+  margin-bottom: 40px;
+  font-size: 20px;
+}
+
+#con {
+  height: 20px;
+  width: 20px;
+  padding-left: 0px;
+  margin-left: 20px;
+}
+
+a.my-link {
+  text-decoration: none;
+}
+.btn-neon {
+  transition: 0.2s;
+  overflow: hidden;
+  padding-left: 77px;
+}
+
+.btn-neon:hover {
+  background: #24afd3;
+  box-shadow: 0 0 10px #24afd3, 0 0 40px #24afd3, 0 0 80px #24afd3;
+}
+nav ul li a {
+  border-radius: 15px;
+
+  padding-right: 73px;
+  text-decoration: none;
+  color: #ddd;
+  padding-left: 125px;
+  justify-content: space-between;
+
+  font-family: "IM FELL Great Primer SC";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 25px;
+  line-height: 49px;
+}
+.carrito-contador {
+  position: absolute;
+  background-color: #ddd;
+}
