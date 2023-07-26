@@ -1,0 +1,89 @@
+.ListaUusarios {
+  margin-top: 40px;
+
+  width: 100%;
+  padding-bottom: 15px;
+  border-radius: 15px;
+}
+
+.ListaUusarios h2 {
+  border-radius: 15px 15px 0 0;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+ul Link {
+  color: #f6d365;
+}
+
+.li-usuario {
+  padding-left: 10px;
+  margin: 5px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px black, 0 0 10px black, 0 0 10px black;
+
+  padding: 40px;
+  margin-top: 5px;
+  list-style: none;
+  align-items: center;
+  text-align: center;
+  font-size: 20px;
+}
+.Editar-Lista-Usuario {
+  margin-top: 5px;
+  display: grid;
+  padding-right: 20px;
+  grid-template-columns: repeat(2 4, 1fr);
+  padding-left: 30px;
+  font-size: 20px;
+  color: black;
+}
+
+.ListaUsuarioUL {
+  text-align: center;
+  align-items: center;
+  color: black;
+}
+
+.AgregarUsuario {
+  font-size: 24px;
+
+  color: black;
+}
+
+.SalirDashboard {
+  font-size: 24px;
+  color: black;
+}
+
+.BotonesListaUsuario {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 15px;
+  margin-left: 30%;
+  width: 40%;
+  background-color: #ed8013;
+}
+
+.listadoUsuarios {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 80%;
+  margin-left: 9%;
+  border-radius: 15px;
+  background-color: #ffe7b6;
+}
+
+.Editar-Lista-Usuario {
+  background-color: white;
+  border-radius: 15px;
+}
+
+.BotonEliminar {
+  background-color: white;
+  margin-top: 10px;
+  width: 100%;
+  border-radius: 15px;
+  border-style: none;
+}

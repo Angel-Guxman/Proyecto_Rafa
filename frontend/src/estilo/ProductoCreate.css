@@ -1,0 +1,38 @@
+.pro-cr {
+  text-align: center;
+}
+.crear-nuevo {
+    background-color: black;
+  color: white;
+  font-weight: 700;
+  width: 100%;
+  margin-bottom: 0%;
+}
+.form-create-pro {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 350px;
+  margin-bottom: 150px;
+  background-color: #ffe7b6;
+    padding: 12px;
+
+}
+.cap-create-pro {
+  font-weight: 600;
+}
+.text-create-pro {
+  border-radius: 20px;
+  margin-left: 10px;
+}
+.text-create-prod{
+    width: 100%;
+  border-radius: 20px;
+height: 70%;
+}
+.guar-pro-edit{
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #f4b45a;
+
+}

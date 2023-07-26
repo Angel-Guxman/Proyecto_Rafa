@@ -1,0 +1,30 @@
+#asociados {
+  height: 100%;
+  width: 100%;
+  font-size: 20px;
+  text-align: center;
+}
+#aso-des {
+  padding: 5px;
+  width: 80%;
+
+  font-size: 16px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#aso-titulo {
+  font-family: "Times New Roman", Times, serif;
+}
+#aso-compo {
+  margin-bottom: 60px;
+  background-color: #b8cabe;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 15px;
+  margin: 1%;
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+#aso-imagen {
+  width: 90%;
+  margin-bottom: 20px;
+}

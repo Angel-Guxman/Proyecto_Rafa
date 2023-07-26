@@ -1,0 +1,66 @@
+.Form-Edit-User {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.areaTexto {
+  width: 100%;
+}
+
+#Estilo-Usser {
+  width: 100%;
+}
+
+#Descripcion-Cat {
+  align-items: center;
+  text-align: center;
+  font-size: 24px;
+}
+
+#Nombre-Cat {
+  align-items: center;
+  text-align: center;
+  font-size: 24px;
+}
+
+#Cat-Edit {
+  margin-bottom: 70px;
+}
+
+#Cat-Create {
+  margin-bottom: 105px;
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: 3;
+}
+
+.Description-label {
+  width: 100%;
+}
+
+#Cat-Edit-Button {
+  margin-left: 30%;
+  align-items: center;
+  width: 40%;
+  background-color: white;
+  padding: 20px;
+  border-style: none;
+  border-radius: 15px;
+}
+
+#Cat-Create h1 {
+  align-items: center;
+  text-align: center;
+}
+
+.Editar-Categorias {
+  background-color: #ffe7b6;
+  width: 70%;
+  margin-top: 112px;
+  margin-left: 15%;
+  border-radius: 15px;
+  padding-top: 20px;
+  padding-bottom: 58px;
+  padding-left: 20px;
+  padding-right: 20px;
+}

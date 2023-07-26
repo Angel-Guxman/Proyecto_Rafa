@@ -1,0 +1,66 @@
+.AddUser {
+  background-color: #ffe7b6;
+  width: 70%;
+  margin-left: 15%;
+  border-radius: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.correo-usser{
+  padding: 20px;
+}
+
+.AddUser h2 {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.Form-AddUsser {
+  background-color: #ffe7b6;
+  width: 70%;
+  margin-left: 15%;
+  border-radius: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.EstiloUsuario {
+  border-radius: 30px;
+}
+.user-for {
+  margin-bottom: 20px;
+}
+#use-use {
+  margin-top: 20px;
+}
+.agregar-usu {
+  border-radius: 20px;
+  color: white;
+  background-color: black;
+}
+
+.EditUsser {
+  margin: 5px;
+  border-style: none;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.EditarUsuario {
+  background-color: #ffe7b6;
+  width: 70%;
+  margin-top: 20px;
+  margin-left: 15%;
+  border-radius: 15px;
+  padding-top: 20px;
+  padding-bottom: 58px;
+  padding-left: 20px;
+  padding-right: 20px;
+}

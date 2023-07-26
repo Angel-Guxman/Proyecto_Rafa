@@ -1,0 +1,116 @@
+.Contacto {
+  width: 80%;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  margin-left: 30%;
+}
+
+.formularioContacto {
+background-color: #e8c59c;
+  width: 35rem;
+  height: 40rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 15px;
+  border: double #808080 5px;
+}
+
+.header-contact h1 {
+  margin-top: 20px;
+
+  border-radius: 15px;
+
+  font-size: 45px;
+}
+
+.header-contact p {
+  font-size: 20px;
+}
+
+.symbol-required {
+  text-align: center;
+  align-items: center;
+}
+
+.symbol-required::after {
+  content: "*";
+  color: red;
+  font-size: 24px;
+}
+
+.CajaFormulario {
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 15px;
+  border: double #808080 5px;
+
+  border-radius: 15px;
+  background-color: #f9e7b5;
+
+  width: 69%;
+}
+
+#nombre {
+  width: 100%;
+  margin-right: 60px;
+}
+
+#email {
+  width: 100%;
+  font-size: 24px;
+  margin-right: 60px;
+}
+
+#message {
+  width: 100%;
+  font-size: 24px;
+  margin-right: 60px;
+}
+
+.field-name {
+  align-items: center;
+  text-align: center;
+}
+
+.field-email {
+  align-items: center;
+  text-align: center;
+}
+
+.field-message {
+  align-items: center;
+  text-align: center;
+}
+
+.btn-send {
+  margin-left: 10px;
+  align-items: center;
+  text-align: center;
+  width: 12rem;
+  background-color: #fbf1c4;
+}
+
+.btn-send:focus {
+  background-color: #16dd08;
+  color: white;
+}
+.comentario {
+  display: flex;
+  justify-content: center;
+}
+.link-comentario {
+  padding: 15px;
+  font-weight: 600;
+  text-align: center;
+  width: 70%;
+  background-color: #e97a3a;
+  border-radius: 30px;
+  color: black;
+}
+.link-comentario:hover {
+  background: #e97a3a;
+  box-shadow: 0 0 10px #e97a3a, 0 0 40px #e97a3a, 0 0 80px #e97a3a;
+}

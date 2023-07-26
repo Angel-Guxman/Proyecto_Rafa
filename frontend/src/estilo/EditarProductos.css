@@ -1,0 +1,74 @@
+.pro-edit-titulo {
+  display: flex;
+  justify-content: center;
+}
+
+.for-edit-pro {
+  margin-bottom: 400px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: auto;
+  gap: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: bisque;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  border-radius: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+  width: 95%;
+}
+.nombre-edit-pro {
+  color: black;
+  font-weight: 800;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  height: 150px;
+}
+
+.productos-celda {
+  border-radius: 20px;
+}
+.guardar-pro {
+  margin-top: 12px;
+  width: 70%;
+  height: 50px;
+  border-radius: 20px;
+  background-color: rgb(225, 159, 73);
+  text-align: center;
+  font-weight: 500;
+}
+.salir-pro {
+  margin-top: 12px;
+  width: 70%;
+  height: 50px;
+  border-radius: 20px;
+  background-color: rgb(225, 159, 73);
+  text-align: center;
+  padding-top: 10px;
+  font-weight: 500;
+  color: black;
+}
+.agregar-producto {
+  margin-top: 12px;
+  width: 50%;
+  height: 50px;
+  border-radius: 30px;
+  background-color: rgb(225, 159, 73);
+  text-align: center;
+  padding-top: 10px;
+  font-weight: 500;
+  color: black;
+}
+.agr-pro {
+  display: flex;
+  justify-content: center;
+}
+.herramienta{
+  height: 100px;
+  width: 100px;
+  border-radius: 45px;
+  margin-left: 30px;
+  margin-top: 60px;
+}

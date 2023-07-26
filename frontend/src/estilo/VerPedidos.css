@@ -1,0 +1,86 @@
+.Listadidos {
+  width: 100%;
+  margin-top: 30px;
+  height: 300px;
+}
+.Lista-de-Pedidos{
+display: flex;
+justify-content: center;
+}
+.ListaPedidos h2 {
+  background-color: black;
+  color: white;
+  padding-top: 1px;
+  padding-bottom: 10px;
+  align-items: center;
+  text-align: center;
+}
+
+.PedidosThead {
+  color: white;
+  align-items: center;
+  text-align: center;
+}
+
+.PedidosTabla {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10%;
+  margin-bottom: 110px;
+}
+.pedidos-total {
+  margin-left: 40px;
+  margin-right: 40px;
+  padding-right: 90px;
+  background-color: #ffe7b6;
+  margin-bottom: 170px;
+  height: auto;
+}
+
+.TRpedidos {
+  background-color: black;
+}
+
+.pedidosTR {
+  border: solid 2px;
+  background-color: rgb(249, 191, 120);
+}
+
+.eliminarPedido {
+  border-radius: 15px;
+}
+
+.BotonesBottom {
+  align-items: center;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.CrearPedido {
+  background-color: white;
+  border-style: none;
+  border-radius: 10px;
+  font-size: 16px;
+  padding: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.BotonSalir {
+  padding: 10px;
+  margin-top: 0%;
+  color: black;
+  background-color: white;
+  border-radius: 10px;
+  font-size: 14px;
+}
+.pedido-usuario {
+  margin-bottom: 20px;
+}
+.crear-pedido {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  margin-bottom: 30px;
+}

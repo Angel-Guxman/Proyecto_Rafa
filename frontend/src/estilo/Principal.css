@@ -1,0 +1,392 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap");
+
+body {
+  width: 100%;
+  background-color: #4c7f95;
+  background-size: cover;
+  height: 100%;
+  overflow-x: hidden;
+  padding: 0%;
+  margin: 0%;
+}
+.cont-urban{
+  background-color: #4c7f95;
+  
+}
+
+
+#princip {
+
+  background-color:white;
+
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+.contenido {
+  margin-top: 0%;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.img01 {
+  height: 550px;
+  width: 100%;
+  border: solid 1px;
+  margin: 0%;
+  padding: 0%;
+}
+
+.text01 {
+  margin-top: 0%;
+  margin-bottom: 0%;
+  font-family: "IM FELL Great Primer SC";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 49px;
+  text-align: center;
+
+  padding-right: 5%;
+
+  animation: fanimado 10s infinite;
+  background-size: 500%;
+  width: 100%;
+}
+@keyframes fanimado {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.parte2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-top: 0%;
+  padding-bottom: 0%;
+  gap: 20px;
+}
+
+.text02 {
+  background-color: #FFE9B6;
+  font-family: "Abhaya Libre ExtraBold";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  height: 183px;
+  color: #000000;
+  margin-bottom: 0%;
+}
+#atarde {
+  height: 183px;
+  width: 100%;
+  margin-top: 0%;
+}
+#atarde:hover {
+  transform: scale(1.05);
+  transition: transform 0.5s ease-out;
+}
+
+a {
+  text-decoration: none;
+}
+@media (max-width: 650px) {
+  header {
+    flex-direction: column;
+  }
+  body {
+    flex-direction: column;
+  }
+  main {
+    flex-direction: column;
+  }
+}
+#bien {
+  font-family: "IM FELL Great Primer SC";
+  color: #000000;
+  position: absolute;
+  font-size: 70px;
+}
+#cont {
+  background-color:white;
+
+  padding-bottom: 10px;
+  margin-bottom: 0%;
+  padding-top: 10px;
+  text-align: center;
+}
+
+#cont p {
+  width: 100%;
+
+}
+
+.text03 {
+  background-color: #FFE9B6;
+  font-family: "Abhaya Libre ExtraBold";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  background-color: #ffe29c;
+  height: 183px;
+  margin-bottom: 0%;
+}
+#costa {
+  height: 183px;
+  width: 100%;
+  margin-top: 0%;
+}
+#costa:hover {
+  transform: scale(1.05);
+  transition: transform 0.5s ease-out;
+}
+
+#img-carru-uno {
+  height: 350px;
+  width: 100%;
+}
+
+#img-carru-dos {
+  height: 350px;
+  width: 100%;
+}
+
+#img-carru-tres {
+  height: 350px;
+  width: 100%;
+}
+#img-carru-cuatro {
+  height: 350px;
+  width: 100%;
+  border-radius: 20px;
+}
+.papito {
+  display: flex;
+  justify-content: center;
+}
+.carruse {
+  border-radius: 20px;
+  width: 88%;
+  background-image: linear-gradient(to right, #f4b45a 0%, #c651a7 100%);
+  height: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.carruse p {
+  margin-top: 10px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+#img-carru-uno:hover {
+  transform: scale(
+    1.1
+  ); /* Aplicar un efecto de escala al pasar el mouse sobre la imagen */
+  transition: transform 0.3s ease; /* Agregar una transición suave para el efecto */
+  cursor: pointer; /* Cambiar el cursor a una mano cuando el mouse esté sobre la imagen */
+}
+
+#img-carru-dos:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+#img-carru-tres:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+#img-carru-cuatro:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+#transporte-ahora {
+  height: 32px;
+  width: 100%;
+  border-radius: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.BotonPrincipal {
+  background-color: white;
+  text-decoration: none;
+  color: #000000;
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  border-radius: 30px 0px 0px 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.whattsap {
+  height: 100%;
+  background-color: white;
+  border-radius: 0px 30px 30px 0px;
+  padding-right: 7px;
+}
+
+.deconstructed {
+  position: relative;
+  height: 70px;
+  color: transparent;
+  font-family: "Cambay", sans-serif;
+  font-size: 5vw;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.03em;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.deconstructed > div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: black;
+  pointer-events: none;
+}
+
+.deconstructed > div:nth-child(1) {
+  -webkit-mask-image: linear-gradient(black 25%, transparent 25%);
+  mask-image: linear-gradient(black 25%, transparent 25%);
+  animation: deconstructed1 7s infinite;
+}
+
+.deconstructed > div:nth-child(2) {
+  -webkit-mask-image: linear-gradient(
+    transparent 25%,
+    black 25%,
+    black 50%,
+    transparent 50%
+  );
+  mask-image: linear-gradient(
+    transparent 25%,
+    black 25%,
+    black 50%,
+    transparent 50%
+  );
+  animation: deconstructed2 7s infinite;
+}
+
+.deconstructed > div:nth-child(3) {
+  -webkit-mask-image: linear-gradient(
+    transparent 50%,
+    black 50%,
+    black 75%,
+    transparent 75%
+  );
+  mask-image: linear-gradient(
+    transparent 50%,
+    black 50%,
+    black 75%,
+    transparent 75%
+  );
+  animation: deconstructed3 7s infinite;
+}
+
+.deconstructed > div:nth-child(4) {
+  -webkit-mask-image: linear-gradient(transparent 75%, black 75%);
+  mask-image: linear-gradient(transparent 75%, black 75%);
+  animation: deconstructed4 7s infinite;
+}
+
+@keyframes deconstructed1 {
+  0% {
+    transform: translateX(100%);
+  }
+  26% {
+    transform: translateX(0%);
+  }
+  83% {
+    transform: translateX(-0.1%);
+  }
+  100% {
+    transform: translateX(-120%);
+  }
+}
+
+@keyframes deconstructed2 {
+  0% {
+    transform: translateX(100%);
+  }
+  24% {
+    transform: translateX(0.5%);
+  }
+  82% {
+    transform: translateX(-0.2%);
+  }
+  100% {
+    transform: translateX(-125%);
+  }
+}
+
+@keyframes deconstructed3 {
+  0% {
+    transform: translateX(100%);
+  }
+  22% {
+    transform: translateX(0%);
+  }
+  81% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-130%);
+  }
+}
+
+@keyframes deconstructed4 {
+  0% {
+    transform: translateX(100%);
+  }
+  20% {
+    transform: translateX(0%);
+  }
+  80% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-135%);
+  }
+}
+.unidad-cartas {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-family: "Cambay", sans-serif;
+  font-weight: 600;
+}
+
+.trans-uno {
+  padding: 5px;
+  height: 450px;
+  width: 100%;
+  background-color: #b8cabe;
+}
+.img-top-uno {
+  height: 300px;
+  width: 100%;
+  border-radius: 30px;
+}
+.trans-cuerpo {
+  height: 150px;
+  width: 100%;
+}
+.unidad-destacada {
+  text-align: center;
+}
